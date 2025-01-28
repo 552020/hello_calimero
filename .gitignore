@@ -1,26 +1,34 @@
 # Environment variables
 .env
 
-# Rust
-target/
-**/*.rs.bk
-Cargo.lock
+# Rust build directory
+/target/
 
-# Internet Computer
-.dfx/
-canister_ids.json
+# Rust package manager lock file (uncomment if you want to ignore it)
+# Cargo.lock
 
-# Node.js
-node_modules/
-dist/
-build/
-
-# IDEs and editors
+# IDE specific files
 .idea/
 .vscode/
 *.swp
 *.swo
+
+# Calimero specific
+.calimero/
+blobs/
+data/
+
+# Generated files
+*.rs.bk
+*.pdb
+
+# System files
 .DS_Store
+Thumbs.db
+
+# Debug files
+**/*.rs.bk
+*.pdb
 
 # Logs
 *.log
