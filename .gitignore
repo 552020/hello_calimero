@@ -4,6 +4,9 @@
 # Rust build directory
 /target/
 
+# WASM artifacts
+/res/**/*.wasm
+
 # Rust package manager lock file (uncomment if you want to ignore it)
 # Cargo.lock
 
